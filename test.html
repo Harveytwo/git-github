@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>测试</h1>
+	<button class="btn send">发送</button>
+	<button class="btn get">获取数据</button>
+	<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+	<script type="text/javascript">
+		$('.send').on('click', function() {
+			$.ajax({
+			  type: "post",
+			  url: "http://www.yuxiulive.com/app1/login",
+			  // url: "http://localhost/login",
+			  data: { name: '111', password: '111'},
+			  dataType: "json",
+			  success: function(res) {
+			  	console.log(res);
+			  	console.log(22)
+			  },
+			  error: function(e) {
+			  	console.log(e)
+			  	console.log(33)
+			  }
+			})
+		})
+		// $('.send').on('click', function() {
+		// 	$.ajax({
+		// 	  type: "post",
+		// 	  url: "http://www.yuxiulive.com/app1/addmsg",
+		// 	  data: { msg: '帅哥再次来了啦啦66666'},
+		// 	  dataType: "json",
+		// 	  success: function(res) {
+		// 	  	console.log(res);
+		// 	  	console.log(22)
+		// 	  },
+		// 	  error: function(e) {
+		// 	  	console.log(e)
+		// 	  	console.log(33)
+		// 	  }
+		// 	});
+		// })
+
+		// $('.get').on('click', function() {
+		// 	$.ajax({
+		// 	  type: "get",
+		// 	  url: "http://www.yuxiulive.com/app1/msgs",
+		// 	  dataType: "json",
+		// 	  success: function(res) {
+		// 	  	console.log(res);
+		// 	  	console.log(22)
+		// 	  },
+		// 	  error: function(e) {
+		// 	  	console.log(e)
+		// 	  	console.log(33)
+		// 	  }
+		// 	});
+		// })
+	</script>
+</body>
+</html>
