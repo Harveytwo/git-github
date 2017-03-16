@@ -97,7 +97,17 @@ git commit -m "message"
 **偶尔使用 git status 查看当前状态，会有意想不到的收获，特别是不造出现什么错误的时候
 
 
-##以下是零碎笔记：
+## 使用 git clone GitHub 上的项目
+> 1、git clone git 地址
+> 2、克隆到本地，然后使用桌面应用工具
+> 3、点击 Add 把刚克隆的文件，添加 Add repository, 就可以在桌面工具看到项目的详细信息了哦
+
+
+
+
+
+
+#以下是零碎笔记：
 > 1、在 GitHub 网站上创建 nodeDBTest2 项目
 git init
 
