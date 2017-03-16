@@ -105,6 +105,7 @@ git commit -m "message"
 > 3、点击 Add 把刚克隆的文件，添加 Add repository, 就可以在桌面工具看到项目的详细信息了哦
 
 
+=================================== End ====================================
 
 <br />
 <br />
@@ -114,7 +115,9 @@ git commit -m "message"
 <br />
 <br />
 <br />
-#以下是零碎笔记：
+
+# 以下是零碎笔记：
+
 > 1、在 GitHub 网站上创建 nodeDBTest2 项目
 git init
 
