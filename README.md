@@ -127,6 +127,16 @@ git tag -d v0.1.2 # 删除标签  // 注意提交后的 tag 不能删除了
 git push origin 1.1     // 将 1.1 标签提交到 git 服务器
 git push origin –tags  // 将本地所有标签一次性提交到 git 服务器
 ```
+## 分支管理
+
+```
+// Git 创建 test 分支并切换到分支的命令：
+git checkout -b develop master
+// 在Git v1.7.0 之后，可以使用这种语法删除远程分支：
+git push origin --delete <branchName>
+// git 提交分支到远程分支
+git push --set-upstream origin test
+```
 
 <br />
 <br />
