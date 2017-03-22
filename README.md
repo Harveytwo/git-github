@@ -136,6 +136,8 @@ git checkout -b develop master
 git push origin --delete <branchName>
 // git 提交分支到远程分支
 git push --set-upstream origin test
+// 删除本地分支
+git branch -d test
 ```
 
 <br />
