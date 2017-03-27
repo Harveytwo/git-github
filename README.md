@@ -142,7 +142,9 @@ git branch -d test
 ## 放弃之前修改
 ```
 git checkout .    // 本地所有修改的。没有的提交的，都返回到原来的状态
-git stash   // 把所有没有提交的修改暂存到 stash 里面, 可用 git stash pop 回复。
+git stash   // 把所有没有提交的修改暂存到 stash 里面, 可用 git stash pop 恢复
+git reset --hard HASH   // 返回到某个节点，不保留修改
+git reset --soft HASH   // 返回到某个节点，保留修改
 ```
 <br />
 <br />
