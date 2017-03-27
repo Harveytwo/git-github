@@ -139,7 +139,11 @@ git push --set-upstream origin test
 // 删除本地分支
 git branch -d test
 ```
-
+## 放弃之前修改
+```
+git checkout .    // 本地所有修改的。没有的提交的，都返回到原来的状态
+git stash   // 把所有没有提交的修改暂存到 stash 里面, 可用 git stash pop 回复。
+```
 <br />
 <br />
 =================================== End ====================================
